@@ -1,0 +1,100 @@
+.wrapper
+{
+    display: flex;
+    flex-direction: column
+}
+
+
+@media only screen and (min-width: 600px) {
+.header
+{
+    padding-left: 2%;
+    background-color: #f1f1f1;
+    width: 100%;
+    height: 60px;
+}
+#align
+{
+float: right;
+margin-right: 5%;
+}
+
+#around
+{
+    margin-left: 1%;
+}
+#around2
+{
+    margin-left: 3%;
+}
+#around3
+{
+    margin-left: 22%;
+}
+}
+
+
+@media only screen and (max-width: 600px) {
+.btnclass
+{
+    padding: 10px 24px;
+    width: 50%; 
+    display: block; 
+}
+.header
+{
+    padding-left: 2%;
+    width: 100%;
+    height: 200px;
+}
+#around
+{
+    margin-top: 5%;
+}
+#align
+{
+    margin-top: 30%;
+}
+}
+
+
+
+.main
+{
+    padding-left: 2%;
+    background-color: #f1f1f1;
+    width: 65%;
+    height: 680px;
+}
+
+.aside
+{
+    background-color: #f1f1f1;
+    margin-left: 70%;
+    height: 780px;
+    display: inline;
+}
+
+.footer
+{
+    background-color: #f1f1f1;
+    width: 100%;
+    height: 60px;
+    display:inline-block;
+    padding-left: 2%;
+
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 5vw);
+    grid-gap: 15px;
+}
+
+
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
